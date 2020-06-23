@@ -20,7 +20,7 @@ public class DBConnection
             String mydatabase = "telemetria"; //Nome do BD
             String url = "jdbc:mysql://" + serverName + "/" + mydatabase + "?serverTimezone=UTC"; //URL de acesso ao BD
             String username = "root"; //Username do BD
-            String password = "Matheusmaia010203"; //Senha do BD
+            String password = ""; //Senha do BD
             con = DriverManager.getConnection(url, username, password); //Conexão ao BD
             if(con != null)
                 status = "Conectado com sucesso"; //Conectado
